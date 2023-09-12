@@ -13,11 +13,63 @@ function Feature() {
             name: "Registration"
         },
         {
-            icon: "sd",
+            icon: <AiTwotoneCalendar />,
             name: "ssss"
         },
         {
-            icon: "sdf",
+            icon: <AiTwotoneCalendar />,
+            name: "dsfds"
+        },
+        {
+            icon: <AiTwotoneCalendar />,
+            name: "dsfds"
+        },
+        {
+            icon: <AiTwotoneCalendar />,
+            name: "dsfds"
+        },
+        {
+            icon: <AiTwotoneCalendar />,
+            name: "dsfds"
+        },
+        {
+            icon: <BsFillCalendarDateFill />,
+            name: "dsfds"
+        },
+        {
+            icon: <BsFillCalendarDateFill />,
+            name: "dsfds"
+        },
+        {
+            icon: <AiTwotoneCalendar />,
+            name: "dsfds"
+        },
+        {
+            icon: <AiTwotoneCalendar />,
+            name: "dsfds"
+        },
+        {
+            icon: <AiTwotoneCalendar />,
+            name: "dsfds"
+        },
+        {
+            icon: <AiTwotoneCalendar />,
+            name: "dsfds"
+        },
+        {
+            icon: <BsFillCalendarDateFill />,
+            name: "dsfds"
+        },
+        {
+            icon: <BsFillCalendarDateFill />,
+            name: "dsfds"
+        },
+        {
+            icon: <BsFillCalendarDateFill />,
+            name: "dsfds"
+        },
+        {
+            icon: <BsFillCalendarDateFill />,
             name: "dsfds"
         },
         {
@@ -25,63 +77,11 @@ function Feature() {
             name: "dsfds"
         },
         {
-            icon: "sdf",
+            icon: <AiTwotoneCalendar />,
             name: "dsfds"
         },
         {
-            icon: "sdf",
-            name: "dsfds"
-        },
-        {
-            icon: "sdf",
-            name: "dsfds"
-        },
-        {
-            icon: "sdf",
-            name: "dsfds"
-        },
-        {
-            icon: "sdf",
-            name: "dsfds"
-        },
-        {
-            icon: "sdf",
-            name: "dsfds"
-        },
-        {
-            icon: "sdf",
-            name: "dsfds"
-        },
-        {
-            icon: "sdf",
-            name: "dsfds"
-        },
-        {
-            icon: "sdf",
-            name: "dsfds"
-        },
-        {
-            icon: "sdf",
-            name: "dsfds"
-        },
-        {
-            icon: "sdf",
-            name: "dsfds"
-        },
-        {
-            icon: "sdf",
-            name: "dsfds"
-        },
-        {
-            icon: "sdf",
-            name: "dsfds"
-        },
-        {
-            icon: "sdf",
-            name: "dsfds"
-        },
-        {
-            icon: "s",
+            icon: <AiTwotoneCalendar />,
             name: "dsfds"
         },
         {
@@ -89,7 +89,7 @@ function Feature() {
             name: "dsfds"
         },
         {
-            icon: "sd",
+            icon: <BsFillCalendarDateFill />,
             name: "dsfds"
         },
         {

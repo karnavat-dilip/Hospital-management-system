@@ -3,6 +3,7 @@ import con from '../modal/modal.js'
 
 const Router = express.Router()
 
+
 Router.get('/login',(req,res)=>{
     const sql = 'SELECT * FROM `login_info`'
     con.query(sql,(err,result)=>{

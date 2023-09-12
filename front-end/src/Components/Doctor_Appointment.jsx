@@ -64,7 +64,7 @@ function Appointment() {
       id: "second",
       attachTo: {
         element: ".dr_apt",
-        on: "bottom"
+        on: "top"
       },
       text: [
         "Yuk eksplorasi hasil Tes Minat Bakat-mu dan rekomendasi <b>Jurusan</b> dan Karier."
