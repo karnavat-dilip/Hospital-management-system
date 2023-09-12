@@ -1,0 +1,300 @@
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+
+.child2 {
+  padding: 3vw;
+  margin-left: -49px;
+}
+
+.container2 {
+  display: grid;
+  grid-template-areas:
+    'header';
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container2>div {
+  text-align: center;
+  font-size: 30px;
+}
+
+.header {
+  grid-area: header;
+  display: flex;
+}
+
+.header .head {
+  flex-basis: 3%;
+}
+
+.hospital_name {
+  flex-basis: 33%;
+  text-transform: capitalize;
+  color: blueviolet;
+  font-variant: all-small-caps;
+}
+
+.profile {
+  flex-basis: 61%;
+}
+
+.main {
+  height: 100vh;
+  position: relative;
+  background-color: rgb(191, 191, 209);
+}
+
+.manu {
+  background: #5b5b5b;
+  position: absolute;
+  top: 52px;
+  width: 3%;
+  bottom: 0;
+  overflow: hidden;
+  box-shadow: 0 0 60px;
+  font-size: medium;
+  color: white;
+  transition: all 0.3s;
+  z-index: 1;
+}
+
+.manu ol {
+  list-style: none;
+  letter-spacing: 2px;
+  text-align: left;
+  padding: 0px;
+  font-size: medium;
+  text-transform: capitalize;
+}
+
+.manu ol li {
+  padding: 5px;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+}
+
+.manu ol li a {
+  text-decoration: none;
+  color: white;
+  /* display: none; */
+}
+
+.manu:hover {
+  width: 20%;
+}
+
+.manu ol li:hover {
+  background-color: rgb(204, 213, 181);
+
+}
+
+.style_icon {
+  margin: 8px;
+  margin-right: 24px;
+}
+
+.icon_style {
+  display: inline-grid;
+  gap: 13px;
+  margin: 19px;
+  cursor: pointer;
+  flex-basis: 8%;
+}
+
+.icon_btn {
+  width: 72px;
+  height: 62px;
+  border-radius: 43px;
+  margin: auto;
+  box-shadow: 0 0 11px white;
+  border: none;
+
+}
+
+.icon_name {
+  font-size: medium;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.parent_style {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 59px;
+  position: relative;
+  justify-content: flex-start;
+  top: -46px;
+}
+
+#lfticon {
+  position: absolute;
+  right: -5px;
+  color: rgb(191, 191, 209);
+  top: 14px;
+}
+
+.container3 {
+  position: absolute;
+  background: aliceblue;
+  top: 46px;
+  left: 54px;
+  border-radius: 3px;
+  right: 8px;
+  bottom: 64px;
+  box-shadow: 0 0 4px;
+}
+
+.Dashboard {
+  z-index: 0;
+  position: relative;
+  top: -6px;
+  right: 43%;
+  font-size: 21px;
+  display: inline;
+  -webkit-user-select: none;
+  user-select: none;
+  color: #4141ae;
+  text-transform: capitalize;
+}
+
+.lbl {
+  font-size: 24px;
+  top: 7px;
+  position: relative;
+  color: blue;
+}
+
+.Title {
+  display: inline;
+  position: absolute;
+  left: 0;
+  top: -35px;
+  font-size: large;
+  color: blue;
+}
+
+.dr_apt {
+  display: flex;
+  justify-content: space-around;
+  font-size: medium;
+  color: blueviolet;
+  padding: 8px;
+}
+
+.dropdown {
+  padding: 2px;
+  width: 152px;
+  margin-bottom: auto;
+  left: 24px;
+
+}
+
+.slot {
+  position: absolute;
+  top: 48px;
+  overflow: auto;
+  height: 75%;
+  background: #d7cece;
+  width: 99%;
+}
+
+.color-check {
+
+  padding: 4px;
+  height: fit-content;
+  position: relative;
+  top: 72vh;
+}
+
+.content {
+  height: fit-content;
+  position: relative;
+  top: 71vh;
+  left: -25px;
+}
+
+.lb {
+  position: relative;
+  left: 24px;
+  margin: auto;
+}
+
+.time_stamp {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  background: cadetblue;
+}
+
+.time_slot {
+  padding: 9px;
+  color: #5b5b5b;
+  font-size: small;
+}
+
+#btn {
+  display: block;
+  position: absolute;
+  left: 49%;
+  padding: 14px;
+  top: 146px;
+  width: 152px;
+  color: blue;
+  border: none;
+  border-radius: 6px;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -68px;
+  align-items: flex-end;
+}
+
+.patient_appintment {
+  padding: inherit;
+  background: aliceblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name_dt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#loader {
+  color: #008cff;
+  height: 40px;
+  left: 45%;
+  position: absolute;
+  top: 45%;
+  width: 30%;
+}
+
+.e-past-app {
+  background-color: chocolate !important;
+}
+
+table, td {
+  border-collapse: collapse;
+}
+.td1{
+  width: 100px;
+  background: border-box;
+}
+.td2{
+  width: 100vw;
+  border: 1px ridge lightgray;
+    background: white;
+}
+.td2:hover{
+  background: lavender;
+}
